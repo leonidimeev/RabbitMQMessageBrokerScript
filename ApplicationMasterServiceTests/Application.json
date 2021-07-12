@@ -1,0 +1,349 @@
+{
+    "applicationId": "5d48e59f-27cd-46e6-89d4-ee69a9f45549",
+    "affectedFields": ["All"],
+    "applicationSchemaVersion": "0.1.0",
+    "completedTreatments": "Passed",
+    "applicationPatch":
+        {
+            "id": "5d48e59f-27cd-46e6-89d4-ee69a9f45549",
+            "createdOn": "2021-06-28T06:59:12.821Z",
+            "modifiedOn": "2021-06-28T06:59:12.821Z",
+            "createdBy": "00000000-0000-0000-0000-000000000000",
+            "modifiedBy": "00000000-0000-0000-0000-000000000000",
+            "workflowConfiguration": {
+                "applicationAcceptingServiceGroup": "LoanApplicationService",
+                "applicationAcceptingServiceWorkflow": "Default",
+                "applicationProcessingServiceGroup": "ActivityService",
+                "applicationProcessingServiceWorkflow": "Default",
+                "acmNamespace": "Default",
+                "checksMediator": "CheckServiceV3"
+            },
+            "status": 0,
+            "channel": 1,
+            "applicationDate": "2021-06-28T06:59:12.821Z",
+            "scoring": {
+                "value": 0.13,
+                "date": "2021-06-28T06:59:12.821Z"
+            },
+            "salesPromotion": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "name": "string"
+            },
+            "product": {
+                "schemaVersion": "string",
+                "id": "00000000-0000-0000-0000-000000000000",
+                "productSource": 0,
+                "name": "string",
+                "schemaId": "00000000-0000-0000-0000-000000000000",
+                "productAdditionalSchemaId": "00000000-0000-0000-0000-000000000000",
+                "parameters": [
+                    {
+                        "loanTerm": 32,
+                        "loanRate": 13.3,
+                        "loanType": 2,
+                        "isInsuranceConfirm": true,
+                        "loanCost": 100000.0,
+                        "insuranceCompany": 2,
+                        "insuranceProgram": 2,
+                        "insurance": "3",
+                        "isAnnuity": true,
+                        "loanPurpose": 1,
+                        "loanPurposeReal": "string"
+                    },
+                    {
+                        "loanTerm": 32,
+                        "loanRate": 13.3,
+                        "loanType": 2,
+                        "isInsuranceConfirm": true,
+                        "loanCost": 100000.0,
+                        "insuranceCompany": 2,
+                        "insuranceProgram": 2,
+                        "insurance": "3",
+                        "isAnnuity": true,
+                        "loanPurpose": 1,
+                        "loanPurposeReal": "string"
+                    }
+                ]
+            },
+            "productAdditions": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "productSource": 1,
+                "name": "name",
+                "schemaId": "00000000-0000-0000-0000-000000000000",
+                "productAdditionalSchemaId": "00000000-0000-0000-0000-000000000000",
+                "parameters": [
+                    {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "name": "string"
+                    },
+                    {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "name": "string"
+                    }
+                ]
+            },
+            "client": [
+                {
+                    "schemaVersion": "v0.1",
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "masterDataId": "00000000-0000-0000-0000-000000000000",
+                    "participantType": 1,
+                    "clientCategory": 1,
+                    "isBankGroupEmploye": false,
+                    "firstName": "string(250)",
+                    "lastName": "string(250)",
+                    "fatherName": "string(250)",
+                    "previousLastName": "string(250)",
+                    "gender": 1,
+                    "birthDate": "2021-06-28",
+                    "birthPlace": "string(250)",
+                    "email": "string(200)",
+                    "personInfoConfirm": true,
+                    "documentSeries": "string(4)",
+                    "documentNumber": "string(10)",
+                    "documentIssuedOn": "2021-06-28",
+                    "documentUnitAuthority": "string(10)",
+                    "documentIssuedBy": "string(250)",
+                    "registrationAddress": {
+                        "schemaVersion": "v0.1",
+                        "textValue": "string",
+                        "fiasId": "00000000-0000-0000-0000-000000000000",
+                        "address": "string",
+                        "building": "string",
+                        "apartment": ""
+                    },
+                    "address": {
+                        "schemaVersion": "v0.1",
+                        "textValue": "string",
+                        "fiasId": "00000000-0000-0000-0000-000000000000",
+                        "address": "string",
+                        "building": "string",
+                        "apartment": ""
+                    },
+                    "snils": "string(20)",
+                    "inn": "string(12)",
+                    "socialStatus": 1,
+                    "maritalStatus": 1,
+                    "education": {
+                        "level": 1,
+                        "institution": "string"
+                    },
+                    "family": {
+                        "childrenUnder18Count": 3,
+                        "cildrenAbove18Count": 3,
+                        "dependentCount": 3,
+                        "dependentChildrenCount": 3,
+                        "dependentOtherCount": 3,
+                        "childrenCount": 3,
+                        "workerCount": 3,
+                        "memberCount": 3,
+                        "spouseWorks": true
+                    },
+                    "incomes": [
+                        {
+                            "schemaVersion": "string",
+                            "id": "00000000-0000-0000-0000-000000000000",
+                            "jobCategory": 1,
+                            "jobTitle": "string",
+                            "jobKind": 1,
+                            "workExperience": 3,
+                            "latestWorkExperience": 3,
+                            "employer": {
+                                "name": "string",
+                                "inn": "string",
+                                "phone": "string",
+                                "personalDepartmentPhone": "string",
+                                "managerPhone": "string",
+                                "accountantPhone": "string",
+                                "legalAddress": {
+                                    "SchemaVersion": "v0.1",
+                                    "TextValue": "string",
+                                    "FiasId": "00000000-0000-0000-0000-000000000000",
+                                    "Address": "string",
+                                    "Building": "string",
+                                    "Apartment": ""
+                                },
+                                "address": {
+                                    "schemaVersion": "v0.1",
+                                    "textValue": "string",
+                                    "fiasId": "00000000-0000-0000-0000-000000000000",
+                                    "address": "string",
+                                    "building": "string",
+                                    "apartment": ""
+                                }
+                            },
+                            "source": 1,
+                            "monthlyIncomeAverage": 50000.0,
+                            "currentYearIncomes": 550000.0,
+                            "latestIncomesDate": "2021-06-28T06:59:12.821Z",
+                            "monthlyIncome": [
+                                50000.0,
+                                50000.0,
+                                60000.0,
+                                50000.0,
+                                40000.0,
+                                50000.0,
+                                40000.0,
+                                60000.0,
+                                50000.0,
+                                0.0,
+                                50000.0,
+                                50000.0
+                            ],
+                            "currentYearTaxes": 366666.6,
+                            "currentYearTaxDeduction": 1000.0
+                        }
+                    ],
+                    "expenses": [
+                        {
+                            "schemaVersion": "string",
+                            "id": "00000000-0000-0000-0000-000000000000",
+                            "livingWage": 13000.0,
+                            "monthlyExpenesAverage": 40000.0,
+                            "communalPayments": 9000.0,
+                            "electricity": 2000.0,
+                            "rental": 0.0,
+                            "currentLoan": 15000.0,
+                            "unverifiedCurrentLoan": 0.0,
+                            "surety": 0.0,
+                            "alimony": 0.0,
+                            "dependent": 10000.0,
+                            "spouseDependent": 5000.0,
+                            "other": 103000.0
+                        }
+                    ],
+                    "phones": [
+                        {
+                            "number": "string",
+                            "type": 1
+                        }
+                    ],
+                    "contacts": [
+                        {
+                            "schemaVersion": "v0.1",
+                            "id": "00000000-0000-0000-0000-000000000000",
+                            "firstName": "string(250)",
+                            "lastName": "string(250)",
+                            "fatherName": "string(250)",
+                            "phones": [
+                                {
+                                    "number": "string",
+                                    "type": 1
+                                }
+                            ],
+                            "address": {
+                                "schemaVersion": "v0.1",
+                                "textValue": "string",
+                                "fiasId": "00000000-0000-0000-0000-000000000000",
+                                "address": "string",
+                                "building": "string",
+                                "apartment": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "loan": {
+                "schemaVersion": "string",
+                "gracePeriod": 12,
+                "prolongationPeriod": 5,
+                "isFirstMonthPay": true,
+                "fullCost": "string",
+                "percentCost": "string",
+                "isStableIncome": true,
+                "portfolio": {
+                    "isPortfolio": true,
+                    "qualityCategory": 1,
+                    "qualityCategoryActing": 1,
+                    "reserveRate": 12.0,
+                    "reserve": 1000.0
+                },
+                "initialFee": "string",
+                "loanKind": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "name": "string"
+                },
+                "purpose": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "name": "string",
+                    "description": "string",
+                    "requestedAmount": 100000.0,
+                    "amount": 100000.0,
+                    "term": 24,
+                    "rate": 13.3
+                },
+                "repaymentType": "Annuity",
+                "insurance": {
+                    "isRequried": true,
+                    "program": {
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "name": "string"
+                    },
+                    "agencyComission": 3
+                },
+                "authorizedBody": "",
+                "authorizedBodyMeetingReport": "",
+                "securedObject": [
+                    {
+                        "schemaVersion": "string",
+                        "id": "00000000-0000-0000-0000-000000000000",
+                        "type": "",
+                        "value": "",
+                        "marketValue": "",
+                        "fairValue": "",
+                        "qualityCategory": 1,
+                        "file": "",
+                        "description": "string",
+                        "personSecuredObject": "00000000-0000-0000-0000-000000000000"
+                    }
+                ]
+            },
+            "contract": {
+                "schemaVersion": "string",
+                "id": "00000000-0000-0000-0000-000000000000",
+                "masterDataId": "00000000-0000-0000-0000-000000000000",
+                "number": "string",
+                "absId": "",
+                "signDate": "2021-06-28T06:59:12.821Z",
+                "status": 1,
+                "momentumCardId": "string",
+                "currentBanAccountNumber": "string"
+            },
+            "office": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "name": "string"
+            },
+            "channelOffice": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "name": "string"
+            },
+            "checks": {
+                "schemaVersion": "string",
+                "extremistCheck": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "stopFactor": "string",
+                    "type": 1,
+                    "title": "string",
+                    "status": "",
+                    "startedOn": "2021-06-28T06:59:12.821Z",
+                    "finishedOn": "2021-06-28T06:59:12.821Z",
+                    "arguments": "string",
+                    "result": 1,
+                    "modifiedResult": 1,
+                    "modifiedResultComment": "string",
+                    "modifiedBy": "00000000-0000-0000-0000-000000000000",
+                    "value": "",
+                    "errorMessage": "string",
+                    "description": "string",
+                    "linkValue": "",
+                    "handler": "string",
+                    "handlerCheckId": ""
+                },
+                "passportCheck": "Проверка действительности паспорта",
+                "baliffsCheck": "Проверка наличия исполнительных производств у физического лица с помощью сервиса УФССП.",
+                "employerCheck": "Проверка работодателя",
+                "bankruptCheck": "Проверка на банкротство",
+                "delayCheck": "Проверка на просрочки АЭБ"
+            }
+        }
+}
